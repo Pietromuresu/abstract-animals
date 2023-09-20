@@ -1,4 +1,4 @@
-package org.java.animals;
+package org.java.interfaces;
 
 public interface IVolante {
 	public void vola();

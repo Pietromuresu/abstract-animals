@@ -1,5 +1,8 @@
 package org.java.animals;
 
+import org.java.interfaces.INuotante;
+import org.java.interfaces.IVolante;
+
 public class Main {
 	
 	public static void main(String[] args) {

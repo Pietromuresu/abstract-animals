@@ -1,5 +1,7 @@
 package org.java.animals;
 
+import org.java.abs.Animal;
+
 public class Cane extends Animal {
 
 	public Cane(int legs, String name) {

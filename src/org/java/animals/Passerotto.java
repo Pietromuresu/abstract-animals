@@ -1,5 +1,8 @@
 package org.java.animals;
 
+import org.java.abs.Animal;
+import org.java.interfaces.IVolante;
+
 public class Passerotto extends Animal implements IVolante {
 
 	public Passerotto(int legs, String name) {

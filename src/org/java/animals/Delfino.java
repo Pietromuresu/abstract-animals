@@ -1,5 +1,8 @@
 package org.java.animals;
 
+import org.java.abs.Animal;
+import org.java.interfaces.INuotante;
+
 public class Delfino extends Animal implements INuotante {
 
 

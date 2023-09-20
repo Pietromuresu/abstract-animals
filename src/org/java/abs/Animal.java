@@ -1,4 +1,4 @@
-package org.java.animals;
+package org.java.abs;
 
 public abstract class Animal {
 	
