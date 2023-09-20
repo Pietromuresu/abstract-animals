@@ -10,18 +10,21 @@ public class Main {
 		cane1.dormi();
 		cane1.verso();
 		cane1.mangia();
+		
 		System.out.println("\n -----------Passerotto------------- ");
 		Passerotto passerotto1 = new Passerotto(2, "Cip Ciop");
 		System.out.println(passerotto1);
 		passerotto1.dormi();
 		passerotto1.verso();
 		passerotto1.mangia();
+		
 		System.out.println("\n ------------Aquila------------- ");
 		Aquila aquila1 = new Aquila(2, "Eagle");
 		System.out.println(aquila1);
 		aquila1.dormi();
 		aquila1.verso();
 		aquila1.mangia();
+		
 		System.out.println("\n -----------Delfino--------------- ");
 		Delfino delfino1 = new Delfino(0, "SQL");
 		System.out.println(delfino1);
