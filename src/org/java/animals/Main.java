@@ -31,6 +31,25 @@ public class Main {
 		delfino1.dormi();
 		delfino1.verso();
 		delfino1.mangia();
-		System.out.println("\n --------------------------------- ");
+		
+		
+		System.out.println("\n -------------Volano e Nuotano------------ ");
+		Main.faiVolare(aquila1);
+		Main.faiNuotare(delfino1);
 	}
+	
+	
+	public static void faiVolare(IVolante animale) {
+		System.out.println(animale);
+		animale.vola();
+	}
+	
+
+	public static void faiNuotare(INuotante animale) {
+		System.out.println("\n ------------------------- ");
+		System.out.println(animale);
+		animale.nuota();
+	}
+	
+	
 }
